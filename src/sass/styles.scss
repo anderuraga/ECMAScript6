@@ -2,15 +2,17 @@
 
 @import 'colors';
 @import 'keyframes';
+@import 'background';
 
 @import 'weather/content';
 @import 'weather/cloud';
 @import 'weather/sun';
 
-
+/*
 body {
     background-color: lighten($color1, 10%);
 }
+*/
 
 *,
 *:before,
