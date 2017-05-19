@@ -16,21 +16,29 @@
 
         <h1><i class="fa fa-html5" aria-hidden="true"></i>&nbsp;ECMASCript 6 o 2015</h1>
 
-        <div class="weather-wrapper">
+        <div id="wrapper" class="weather-wrapper">
 
+           <!--
             <div id="widget-bilbao" class="weather-card">
                 <button onClick="close_widget();">x</button>
                 <div class="weather-icon"></div>
                 <h1>Xº</h1>
                 <p>cargando...</p>
             </div>
-
+            -->
 
 
         </div>
     </div>
 
-    <script src="dist/js/main.js"></script>
+    <!-- <script src="dist/js/main.js"></script> -->
+    <script src="dist/js/widget.js"></script>
+    <script>
+        var widgetBilbao = new Widget('bilbao' , 'wrapper');
+        // var widgetMAdrid = new Widget('madrid' , 'wrapper');
+        //widget.destroy();
+    </script>
+
 
 </body>
 </html>

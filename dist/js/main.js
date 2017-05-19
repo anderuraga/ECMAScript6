@@ -34,7 +34,7 @@ window.onload = function () {
     //crear dos Orcos y que saluden
     var orco1 = new Orco();
     orco1.saluda();
-      var orco2 = new Orco('Tomasin');
+     var orco2 = new Orco('Tomasin');
     orco2.saluda();
     */
 
@@ -45,16 +45,13 @@ window.onload = function () {
            console.info('Terminada Ejecucion :-) ');
          };
 
-
        hacerAlgoPromesa(13)
          .then( function() {
            console.info('Terminada Ejecucion :-) ')
-
-         }).catch( function(){
+          }).catch( function(){
            console.info('Ejecución con ERROR timeout 7 seg');
          });
-
-      */
+       */
 };
 
 ///////////////////////////////////////////////////
